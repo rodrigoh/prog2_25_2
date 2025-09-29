@@ -66,7 +66,7 @@ public class TarefaOpc2 {
       long tempoInsertion = tempoFinal - tempoInicial;
       System.out.print("[ok]");
       if (tamanho < 100) {
-        System.out.println("\nDados no vetor ordenado:");
+        System.out.println("\n----\nDados no vetor ordenado:");
         for (int i : vi) {
           System.out.print(i + " ");
         }
