@@ -73,13 +73,13 @@ public class TarefaOpc2 {
         System.out.println();
       }
       relatorio += "\nPara vetores de " + tamanho + " elementos";
-      if(tempoInsertion>1000) {
+      if(tempoSelection>1000) {
         float tempoSegundos = (float) tempoSelection / 1000;
         relatorio += String.format("\nO tempo de execução para o Selection Sort foi de %dms, %.3fs", tempoSelection, tempoSegundos);
       }
       else
         relatorio += "\nO tempo de execução para o Selection Sort foi de " + tempoSelection + "ms";
-      if(tempoSelection>1000){
+      if(tempoInsertion>1000){
         float tempoSegundos = (float) tempoInsertion/1000;
         relatorio += String.format("\nO tempo de execução para o Insertion Sort foi de %dms, %.3fs", tempoInsertion, tempoSegundos);
       }
