@@ -1,4 +1,4 @@
-package aula14.exemploPolimorfirmoSobreescrita;
+package aula14.exemploPolimorfismoSobrescrita;
 
 public class Principal {
   public static void main(String[] args) {

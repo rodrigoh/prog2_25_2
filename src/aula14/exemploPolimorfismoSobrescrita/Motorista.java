@@ -1,4 +1,4 @@
-package aula14.exemploPolimorfirmoSobreescrita;
+package aula14.exemploPolimorfismoSobrescrita;
 
 public class Motorista extends Colaborador {
   private String cnh;
